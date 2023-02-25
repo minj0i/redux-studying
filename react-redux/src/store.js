@@ -29,6 +29,4 @@ const reducer = (state = [], action) => {
 };
 const store = legacy_createStore(reducer);
 
-store.subscirbe();
-
 export default store;
